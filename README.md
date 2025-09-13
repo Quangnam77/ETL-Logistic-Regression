@@ -11,12 +11,12 @@ This data is a link google sheet so that I have to use pandas to import data.
 The details code is attached in the attachment. After extract, the data needed to be checked, explore to find it is a normal data or not.
 <img width="654" height="697" alt="image" src="https://github.com/user-attachments/assets/0bc1d445-447c-4e52-b0b5-58e2932ef522" />
 
-2/ For data enrollies's education and enrollies's working experience
+2/ For data enrollies' education and enrollies' working experience
 This data is a file excel and csv so in colab, the data need to upload in it.
 The result after upload
-Enrollies's education: 
+Enrollies' education: 
 <img width="999" height="698" alt="image" src="https://github.com/user-attachments/assets/5d953da3-891e-48a9-9ca9-8292fc9c85cb" />
-Enrollies's working experience:
+Enrollies' working experience:
 <img width="1132" height="680" alt="image" src="https://github.com/user-attachments/assets/b3f849a5-f343-4790-a0cd-44e35cc6ace0" />
 
 3/ For training hours and employment data
@@ -32,3 +32,9 @@ The code should be use:
 tables = pd.read_html('link')
 Result after import:
 <img width="453" height="324" alt="image" src="https://github.com/user-attachments/assets/3c867250-fd9a-46cb-aa62-1c16139625ac" />
+
+## ETL data
+After import data, there are some database have missing value and some types of some collumns is not right and need to excecute and repair.
+Some database need to transform data like enrollies, enrollies' education and enrollies' working experience. 
+I need to change type object into suitable type like string, category, etc. Moreover, the database is missing value so I need to create new categories unknown and add in Na value. Finalize, I excecute standarlize value to make the data standard and easy to use.
+All of code which transformed data in this link: https://colab.research.google.com/drive/1KKIQHymW9KTj4ZTdFBIcbuqs3xMseCBb?authuser=0#scrollTo=AlonNbv93Olu
