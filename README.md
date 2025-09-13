@@ -5,10 +5,12 @@ Description extract, transform and load data
 # Adding data enrollies
 ## Data source
 This company have many data source with different types like google sheet, excel, csv, html, tml, etc. And for each type of data, there are many kind of ways to extract data. 
+
 1/ For data enrollies:
 This data is a link google sheet so that I have to use pandas to import data.
 The details code is attached in the attachment. After extract, the data needed to be checked, explore to find it is a normal data or not.
 <img width="654" height="697" alt="image" src="https://github.com/user-attachments/assets/0bc1d445-447c-4e52-b0b5-58e2932ef522" />
+
 2/ For data enrollies's education and enrollies's working experience
 This data is a file excel and csv so in colab, the data need to upload in it.
 The result after upload
@@ -16,6 +18,7 @@ Enrollies's education:
 <img width="999" height="698" alt="image" src="https://github.com/user-attachments/assets/5d953da3-891e-48a9-9ca9-8292fc9c85cb" />
 Enrollies's working experience:
 <img width="1132" height="680" alt="image" src="https://github.com/user-attachments/assets/b3f849a5-f343-4790-a0cd-44e35cc6ace0" />
+
 3/ For training hours and employment data
 For this type, I need to install pymysql and create_engine to access the database
 Result after import data:
@@ -23,6 +26,7 @@ Training_hours:
 <img width="556" height="576" alt="image" src="https://github.com/user-attachments/assets/2ea1cf96-cad8-4a76-80f9-431db3f589ba" />
 Employment:
 <img width="519" height="579" alt="image" src="https://github.com/user-attachments/assets/025fcf68-325a-4061-b59c-7d82ac501bba" />
+
 4/ For city development index data
 The code should be use: 
 tables = pd.read_html('link')
